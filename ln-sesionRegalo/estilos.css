@@ -382,6 +382,14 @@ ul li {
 }
 
 /* MAIN  */
+.contenido-horario h1{
+    text-align: center;
+
+}
+.contenido-horario{
+    margin: 0 auto;
+   text-align: center;
+}
 
 /* CONTENIDO */
 
