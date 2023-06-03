@@ -125,7 +125,11 @@ img {
     margin-left: 10px;
 }
 
-.header-home {
+/**************************************************
+estilos correctos de hero separado
+*/
+
+.hero.home {
     background-image: url(/img/nancy-header-index-min.png);
     background-position: center;
     background-attachment: scroll;
@@ -134,9 +138,10 @@ img {
     min-height: 100vh;
     border-width: 0px;
     position: relative;
+
 }
 
-.header-home::before {
+.hero.home::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -144,6 +149,23 @@ img {
     position: absolute;
     opacity: 0.3;
 }
+.hero.home .titulos {
+    position: relative;
+    z-index: 1;
+}
+
+.hero.home .titulos h1 {
+    color: #ffffff;
+}
+
+/**************************************************
+estilos correctos de hero separado fin
+*/
+
+
+
+
+
 
 /***header servicios**/
 
@@ -199,7 +221,7 @@ img {
     border: none;
     font-size: 25px;
 }
-
+/* 
 .titulos {
     position: relative;
 }
@@ -214,10 +236,10 @@ img {
     color: white;
     padding-top: 150px;
     font-family: var(--tipo-primario);
-}
+} */
 
 .barra-nav {
-    background-color: #658f3d23;
+    background-color: #30441dc4;
     position: relative;
 }
 
@@ -971,6 +993,8 @@ form textarea {
 /*mediaquery para pantalla de lap generica*/
 
 /*mediaquery para pantalla de lap generica*/
+
+
 
 @media (min-width: 768px) {
     .contenedor {
